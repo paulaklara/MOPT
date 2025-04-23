@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+    background-color: #fff;
+  }
+  
+  
+  .hero {
+    background-image: url('../img/imagen.jpg'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 7rem 2rem;
+    position: relative;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  
+  .features {
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    padding: 5rem 2rem;
+  }
+  
+  .features h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .features p {
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .btn.red {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .btn.white {
+    background-color: white;
+    color: #000;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }

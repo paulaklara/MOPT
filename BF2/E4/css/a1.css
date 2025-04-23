@@ -1,0 +1,45 @@
+.texto-estilos p {
+    color: black; 
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+.amarillo-naranja {
+    color: #FFA500; 
+}
+
+.subrayado-azul {
+    text-decoration: underline;
+    text-decoration-color: navy;
+    background-color: navy;
+    color: white;
+}
+
+.azul-claro {
+    color: #1E3A8A;
+}
+
+.lila-oscuro {
+    color: #8A5FB2;
+}
+
+.subrayado-verde-fondo {
+    text-decoration: underline;
+    text-decoration-color: green;
+    background-color: green;
+    color: white;
+}
+
+.negrita-grande {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.subrayado-azul-fondo {
+    text-decoration: underline;
+    text-decoration-color: #1e57b3;
+    background-color: #1e57b3;
+    color: white;
+}
+
+

@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+    text-align: center;
+    padding: 2rem;
+}
+
+h2 {
+    color: #f90;
+}
+
+.monstruo {
+    width: 150px;
+}
+
+.actividad2 {
+    border-top: 10px solid orange;
+    border-bottom: 10px solid orange;
+    border-left: 10px dashed orange;
+    border-right: 10px dashed orange;
+    padding: 10px;
+    display: inline-block;
+}

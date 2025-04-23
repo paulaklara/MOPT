@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #fefae9;
+    color: #1c1c1c;
+  }
+  
+  .pricing-table {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4rem 2rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .plan {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 2.5rem 2rem;
+    width: 300px;
+    border-radius: 4px;
+    position: relative;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .title {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .desc {
+    font-size: 0.95rem;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+  
+  .price {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .currency {
+    font-size: 1rem;
+    vertical-align: super;
+  }
+  
+  .price-note {
+    font-size: 0.8rem;
+    color: #555;
+    margin-top: 0.3rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #007c89;
+    color: #fff;
+    text-align: center;
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+    font-size: 0.9rem;
+    margin: 1rem 0;
+  }
+  
+  .features li {
+    margin-bottom: 0.6rem;
+  }
+  
+  .link {
+    color: #007c89;
+    text-decoration: underline;
+    font-size: 0.9rem;
+  }
+  
+  .recommended {
+    border: 2px solid #fbdc00;
+  }
+  
+  .recommended .badge {
+    background-color: #fbdc00;
+    color: #1c1c1c;
+    font-weight: bold;
+    font-size: 0.75rem;
+    padding: 0.4rem 0.6rem;
+    text-align: center;
+    position: absolute;
+    top: -1.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 4px;
+  }

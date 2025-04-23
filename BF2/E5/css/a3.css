@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 50px;
+    letter-spacing: 5px; 
+    margin-top: 50px;
+    transition: all 0.3s ease; 
+    color: #333;
+}
+
+.titulo:hover {
+    font-style: italic;
+    color: blue;
+}
+
+.autor {
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #555;
+}
+
+.capitulo {
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+    margin-bottom: 20px; 
+}
+
+.contenido {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 750px;
+    margin: 0 auto 20px auto; 
+    text-align: justify; 
+    color: #555;
+}

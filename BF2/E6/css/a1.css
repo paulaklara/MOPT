@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.titulo {
+    font-size: 2.8rem;  
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+
+.subtitulo {
+    font-size: 1.6rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+
+.imagen {
+    width: 22rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+
+.modelo {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+
+.sku {
+    font-size: 1rem;
+    color: #777;
+    margin: 0.5rem 0 2rem 0;
+}
+
+
+.precio {
+    font-size: 2rem;
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 1rem;
+}
